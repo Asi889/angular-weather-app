@@ -10,7 +10,7 @@
   <div class="upper-data relative overflow-hidden w-full h-[50%] rounded-t-2xl">
     
     <img class="absolute top-0 left-0 w-full h-full" src="../assets/night.png" *ngIf="weatherData.main.temp < 15">
-    <img class="absolute top-0 left-0 w-full h-full" src="../assets/day.jpg" *ngIf="weatherData.main.temp > 15">
+    <img class="absolute top-0 left-0 w-full h-full" src="../assets/day.png" *ngIf="weatherData.main.temp > 15">
 
     <div class="weather-data relative z-10 w-full h-full bg-[#0000004d] flex flex-col items-center justify-center">
       <div class="location text-white text-center text-sm">{{weatherData.name}}</div>
